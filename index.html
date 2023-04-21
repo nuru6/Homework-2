@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo - Second Homework</title>
+    <script src="https://kit.fontawesome.com/3b84f22a45.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+
+        <!-- Navbar Logo -->
+        <div>
+            <img src="images/logo.png">
+        </div>
+
+        <!-- Navbar Menu -->
+        <div class="navbar">
+            <input type="checkbox" id="nav-control">
+            <label for="nav-control" id="l-open"><i class="fa-solid fa-bars"></i></label>
+            <label for="nav-control" id="l-close"><i class="fa-solid fa-xmark"></i></label>
+            <ul class="navbar-ul">
+                <li><a href="#" class="nav-active">Home</a></li>
+
+                <!-- Nav Second Item -->
+                <li class="nav-dropdown">
+                    <a href="#">Dropdown<i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="nav-dropdownMenu">
+                        <li><a href="#">Menu One</a></li>
+
+                        <li class="menuTwo-dropdown">
+                            <a href="#">Menu Two
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                            <ul class="menuTwo-dropdownMenu">
+                                <li><a href="#">Sub Menu One</a></li>
+                                <li><a href="#">Sub Menu Two</a></li>
+                                <li><a href="#">Sub Menu Three</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Menu Three</a></li>
+                    </ul>
+
+                    <!-- Nav Second Item End-->
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="nav-btn">Download now</a></li>
+            </ul>
+        </div>
+
+        <!-- Navbar End -->
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-sec">
+
+        <div class="h-text">
+            <h4 class="subTitle">Welcome to our site</h4>
+            <h1>Expert SEO, SEM Services in London</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+            <a href="#" class="h-dark-btn">How we work</a>
+            <a href="#" class="h-light-btn">Contact us</a>
+        </div>
+
+        <div class="h-img">
+            <img src="images/hero_1.png">
+        </div>
+
+        <!-- Hero Section End -->
+    </section>
+
+    <!-- Feature Section -->
+    <section class="feature-sec">
+
+        <div class="f-title">
+
+            <h4 class="subTitle">Features</h4>
+            <h1>Our Features</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+
+        </div>
+
+        <div class="features">
+
+            <div>
+                <div class="f-icon">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+                <h2>Marketing Analysis</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+            </div>
+
+            <div>
+                <div class="f-icon">
+                    <i class="fa-solid fa-link"></i>
+                </div>
+                <h2>Digital Marketing</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+            </div>
+
+            <div>
+                <div class="f-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <h2>SEO and Backlinks</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+            </div>
+
+        </div>
+
+        <!-- Feature Section End -->
+    </section>
+
+    <!-- About Section -->
+    <section class="about-sec">
+
+        <div class="a-img">
+            <img src="images/about_1.png">
+        </div>
+
+        <div class="a-text">
+            <h4 class="subTitle">About Us</h4>
+            <h1>Why our agency?</h1>
+            <p>
+                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            </p>
+            <p>
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.
+            </p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i>Behind the word mountains</li>
+                <li><i class="fa-solid fa-check"></i>Bookmarksgrove right at the coast</li>
+                <li><i class="fa-solid fa-check"></i>Semantics, a large language</li>
+            </ul>
+            <a href="#" class="h-dark-btn">About us</a>
+        </div>
+
+        <!-- About Section End -->
+    </section>
+
+    <!-- Service Section -->
+    <section class="service-sec">
+
+        <h4 class="subTitle">Services</h4>
+        <h1>Our Services</h1>
+
+        <div class="services">
+
+            <!-- Service 1 -->
+            <div>
+
+                <div class="s-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div class="s-text">
+                    <h3>Design Marketing</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+            </div>
+
+            <!-- Service 2 -->
+            <div>
+
+                <div class="s-icon">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+
+                <div class="s-text">
+                    <h3>SEO Marketing</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+            </div>
+
+            <!-- Service 3 -->
+            <div>
+
+                <div class="s-icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+
+                <div class="s-text">
+                    <h3>Internet Marketing</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+            </div>
+
+            <!-- Service 4 -->
+            <div>
+
+                <div class="s-icon">
+                    <i class="fa-solid fa-link"></i>
+                </div>
+
+                <div class="s-text">
+                    <h3>BackLinks Marketing</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+            </div>
+
+            <!-- Service 5 -->
+            <div>
+
+                <div class="s-icon">
+                    <i class="fa-solid fa-file-signature"></i>
+                </div>
+
+                <div class="s-text">
+                    <h3>Social Marketing</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+            </div>
+
+            <!-- Service 6 -->
+            <div>
+
+                <div class="s-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+
+                <div class="s-text">
+                    <h3>Design Marketing</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Service Section End -->
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testi-sec">
+
+        <div class="t-title">
+            <h4 class="subTitle">Testimonials</h4>
+            <h1>Testimonials</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+        </div>
+
+        <div class="slider">
+
+            <!-- Radio Buttons -->
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+
+            <!-- Slides -->
+            <div id="slides">
+
+                <div id="overflow">
+
+                    <div class="inner">
+
+                        <!-- Slider 1 -->
+                        <div class="slider1">
+
+                            <!-- Slider Card 1 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_1.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 2 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_2.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 3 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_3.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider 1 Ends -->
+                        </div>
+
+                        <!-- Slider 2 -->
+                        <div class="slider2">
+
+                            <!-- Slider Card 1 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_1.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 2 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_2.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 3 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_3.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider 2 Ends -->
+                        </div>
+
+                        <!-- Slider 3 -->
+                        <div class="slider3">
+
+                            <!-- Slider Card 1 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_1.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 2 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_2.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 3 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_3.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider 3 Ends -->
+                        </div>
+
+                        <!-- Slider 4 -->
+                        <div class="slider4">
+
+                            <!-- Slider Card 1 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_1.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 2 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_2.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Card 3 -->
+                            <div class="s-card">
+                                <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.”</p>
+                                <div class="s-card-bottom">
+                                    <div>
+                                        <img src="images/person_3.jpg">
+                                    </div>
+                                    <div>
+                                        <h3>Carl Anderson</h3>
+                                        <span>Director at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider 4 Ends -->
+                        </div>
+
+                        <!-- Inner Ends -->
+                    </div>
+
+                    <!-- Overflow Ends -->
+                </div>
+
+                <!-- Slides Ends -->
+            </div>
+
+            <!-- Controls -->
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+
+            <!-- Bullets -->
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+
+            <!-- Slider Ends -->
+        </div>
+
+        <!-- Testimonial Section End -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+
+        <!-- Footer Top -->
+        <div class="f-top">
+
+            <div class="f-about">
+                <h3>About Cololib</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+            </div>
+
+            <div class="f-pr">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="f-pr">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="f-contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> info@Cololib</a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> +1 222 212 3819</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i> 43 Raymouth Rd. Baltemoer, London 3910</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="f-bottom">
+            <p>Copyright &copy;2023 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i>
+                by <span>Nuru</span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
